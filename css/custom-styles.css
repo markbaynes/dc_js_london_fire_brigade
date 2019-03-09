@@ -1,0 +1,17 @@
+
+/*Leaflet map size fix http://gis.stackexchange.com/questions/62491/sizing-leaflet-map-inside-bootstrap*/
+
+.container{max-width:60em;}
+
+#map
+{
+    width: 580px;
+    height:500px;
+    min-height: 70%;
+    min-width: 70%;
+    display: block;
+}
+
+#map-holder{
+    height: 500px;
+}
